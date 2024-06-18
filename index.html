@@ -2,12 +2,30 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
     <title>Odin Project</title>
   </head>
 
   <body>
-    <h1>Odin Project</h1>
+    <div class="top">
+      <h1 class="title">Odin Project</h1>
+    </div>
     <br>
-    <a href="./recipes/lasagna.html">Lasagna Recipe</a>
+    <div class="home-pic">
+      <div class="ind_recipe">
+        <a href="./recipes/lasagna.html">
+          <img src="./lasagnaPic.webp" alt="Lasagna" height="400">
+        </a>
+        <a href="./recipes/pasta.html" style="margin-left: 300px;">
+          <img src="./pasta.jpeg" alt="Pesto Pasta" height="400">
+        </a>
+      </div>
+      <a href="./recipes/lasagna.html">
+        <button type="button" style="margin-left: 75px;">Lasagna</button>
+      </a>
+      <a href="./recipes/pasta.html" style="margin-left: 390px;">
+        <button type="button" style="margin-left: 75px;">Pesto Pasta</button>
+      </a>
+    </div>
   </body>
 </html>
