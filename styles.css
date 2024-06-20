@@ -11,7 +11,7 @@ img {
 .recipe {
     display: flex; 
     flex-direction: row; 
-    justify-content: space-around; 
+    justify-content: left; 
     gap:10px;
 }
 /* CSS */
